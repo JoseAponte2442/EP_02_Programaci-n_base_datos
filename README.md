@@ -1,5 +1,4 @@
-# NovaMarket — Examen PA2 - Programación Avanzada de Base de Datos 30627
-
+# NovaMarket — Examen PA2 - Programación Avanzada de Base de Datos
 ## Integrantes y contribuciones
 | # | Nombre | Usuario GitHub | Contribución concreta (archivos / actividades) |
 |---|---|---|---|
