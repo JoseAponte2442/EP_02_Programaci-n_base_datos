@@ -3,7 +3,7 @@ GO
 
 CREATE OR ALTER VIEW vw_VentasCategoriaMes AS
 SELECT 
-    YEAR(p.FechaPedido) AS Anio,
+    YEAR(p.FechaPedido) AS Año,
     MONTH(p.FechaPedido) AS Mes,
     cat.CategoriaID,
     cat.Nombre AS NombreCategoria,
@@ -18,7 +18,7 @@ GROUP BY YEAR(p.FechaPedido), MONTH(p.FechaPedido), cat.CategoriaID, cat.Nombre;
 GO
 
 SELECT * FROM vw_VentasCategoriaMes
-WHERE Anio = 2026
+WHERE Año = 2026
 ORDER BY Mes ASC, MontoTotal DESC;
 GO
 
