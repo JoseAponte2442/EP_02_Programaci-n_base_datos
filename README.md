@@ -96,15 +96,17 @@ erDiagram
 * **Propósito:** Detalle línea por línea de cada pedido; resuelve la relación **muchos a muchos** entre `Pedido` y `Producto`.
 * **Campos:** `DetalleID` (**PK**, `IDENTITY`), `PedidoID` (**FK**), `ProductoID` (**FK**), `Cantidad`, `PrecioUnitario` (precio al momento de la venta).
 
-### 📦 Datos base cargados (`00_esquema_y_datos_base.sql`)
+📦 Datos base cargados (00_esquema_y_datos_base.sql)
+Tabla	Registros
+Categoria	3 (Redes, Seguridad, Accesorios)
+Cliente	15
+Producto	12
+Pedido	40 (23 CONFIRMADO, 5 PENDIENTE, 2 ANULADO y 10 BORRADOR; canales Web, Tienda y Teléfono)
+DetallePedido	80 (4 líneas por cada pedido del 1 al 20; los pedidos 21 al 40 no tienen detalle)
 
-| Tabla | Registros |
-|-------|-----------|
-| Categoria | 3 (Redes, Seguridad, Accesorios) |
-| Cliente | 15 |
-| Producto | 12 |
-| Pedido | 13 (3 históricos de 2025 y 10 de 2026) |
-| DetallePedido | 14 |
+Al final, el script ejecuta una verificación de volumen que cuenta los registros de Cliente, Producto, Pedido y DetallePedido.
+
+
 
 ## 🔎 Resumen de Scripts
 
