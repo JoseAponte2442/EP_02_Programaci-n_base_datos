@@ -1,4 +1,4 @@
-USE NovaMarket;
+USE NovaMarket_EP02;
 GO
 
 SELECT 
