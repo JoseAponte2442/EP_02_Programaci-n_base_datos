@@ -9,7 +9,7 @@ Repositorio que contiene un conjunto de scripts el proyecto **NovaMarket**: crea
 | 3  | Andrés Francisco Pimentel Saldaña    | 73213777@mail.isil.pe |  0%    |
 | 4  | Jhonn Paul Ccasani Enciso            | 44061898@mail.isil.pe |  0%    |
 
-## 📹 Link YouTube: *(pegar aquí el enlace del video de la EP02)*
+## 📹 Link YouTube: *(https://www.youtube.com/watch?v=6-mjH0EnrtI)*
 
 ## 📋 Estructura del Proyecto
 
