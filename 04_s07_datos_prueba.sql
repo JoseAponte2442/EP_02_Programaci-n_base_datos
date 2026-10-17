@@ -74,9 +74,9 @@ UNION ALL
 SELECT 'DetallePedido', COUNT(*) FROM DetallePedido;
 
 SELECT 
-    YEAR(FechaPedido) AS Anio,
+    YEAR(FechaPedido) AS Año,
     Estado,
     COUNT(*) AS CantidadPedidos
 FROM Pedido
 GROUP BY YEAR(FechaPedido), Estado
-ORDER BY Anio DESC, Estado;
+ORDER BY Año DESC, Estado;
