@@ -1,4 +1,4 @@
-USE NovaMarket;
+USE NovaMarket_EP02;
 GO
 
 DECLARE @i INT = 1;
