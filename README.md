@@ -138,11 +138,7 @@ Cada operación incluye una **validación PRE-ejecución** y una **validación P
 
 Reporte por cliente **activo** con el total de pedidos confirmados en 2026 (`COUNT(DISTINCT PedidoID)`) y el monto vendido (`SUM(Cantidad * PrecioUnitario)`). Se usan `LEFT JOIN` para no perder a los clientes sin compras, que aparecen con `0` pedidos y `0.00` de monto gracias a `ISNULL`.
 
-## ▶️ Cómo ejecutar
 
-1. Abrir **SQL Server Management Studio (SSMS)** conectado a una instancia de SQL Server.
-2. Ejecutar los scripts **en orden**, del `00` al `05`.
-3. Revisar los resultados de las validaciones PRE / POST de cada script.
 
 > ⚠️ **Nota:** `00_esquema_y_datos_base.sql` ejecuta `CREATE DATABASE NovaMarket_EP02`, por lo que debe correrse una sola vez. Para repetir la prueba desde cero, eliminar antes la base de datos. Además, el bloque del cursor de `04_s07_datos_prueba.sql` **no es idempotente**: ejecutarlo dos veces duplicaría las líneas de detalle.
 
